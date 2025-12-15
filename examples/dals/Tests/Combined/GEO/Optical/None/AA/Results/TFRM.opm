@@ -1,0 +1,52 @@
+CCSDS_OPM_VERS    = 2.0
+CREATION_DATE     = 2021-04-22T12:2:47
+ORIGINATOR        = DEIMOS SPACE
+
+COMMENT             GEOCENTRIC, CARTESIAN, INERTIAL
+OBJECT_NAME       = unknown
+OBJECT_ID         = 41223
+CENTER_NAME       = EARTH
+REF_FRAME         = ECIJ2000
+TIME_SYSTEM       = UTC
+
+COMMENT  State vector
+EPOCH             = 2020-04-06T04:18:14.049785
+X                 = -30352.68275558167 [km]
+Y                 = -29225.29644804568 [km]
+Z                 = -1036.812561205813 [km]
+X_DOT             = 2.131178711677993 [km/s]
+Y_DOT             = -2.218137265235404 [km/s]
+Z_DOT             = 0.02951399090554973 [km/s]
+
+COMMENT  Keplerian elements
+SEMI_MAJOR_AXIS   = 42174.28889789018 [km]
+ECCENTRICITY      = 0.00103707824275815
+INCLINATION       = 1.513440143909285 [deg]
+RA_OF_ASC_NODE    = 292.5605450451511 [deg]
+ARG_OF_PERICENTER = 237.7736109803365 [deg]
+TRUE_ANOMALY      = 53.57499385329517 [deg]
+GM                = 398600.4415 [km**3/s**2]
+
+COMMENT  State covariance matrix
+CX_X              = 0.001667308669055082 [km**2]
+CY_X              = -0.0006485860552096075 [km**2]
+CY_Y              = 0.001666962612177627 [km**2]
+CZ_X              = 2.210888331757816e-05 [km**2]
+CZ_Y              = 4.110837047421909e-09 [km**2]
+CZ_Z              = 0.001414895768992015 [km**2]
+CX_DOT_X          = 8.635709777657753e-07 [km**2/s]
+CX_DOT_Y          = -2.732550906729879e-07 [km**2/s]
+CX_DOT_Z          = 2.987791318216957e-08 [km**2/s]
+CX_DOT_X_DOT      = 3.070981877042415e-06 [km**2/s**2]
+CY_DOT_X          = -2.354591511060978e-07 [km**2/s]
+CY_DOT_Y          = 1.224367155791425e-06 [km**2/s]
+CY_DOT_Z          = -1.590657675371681e-08 [km**2/s]
+CY_DOT_X_DOT      = -2.442584307571228e-06 [km**2/s**2]
+CY_DOT_Y_DOT      = 1.943912136003242e-06 [km**2/s**2]
+CZ_DOT_X          = 4.417593940724735e-08 [km**2/s]
+CZ_DOT_Y          = -1.3238827926709e-07 [km**2/s]
+CZ_DOT_Z          = -6.025331367342834e-07 [km**2/s]
+CZ_DOT_X_DOT      = -6.025331367342834e-07 [km**2/s**2]
+CZ_DOT_Y_DOT      = -7.188055838284523e-07 [km**2/s**2]
+CZ_DOT_Z_DOT      = 2.78808320422233e-07 [km**2/s**2]
+

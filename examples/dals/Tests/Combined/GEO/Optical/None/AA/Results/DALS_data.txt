@@ -1,0 +1,6 @@
+DALS log file
+Order: 2
+Number of iterations: 10
+Computational time (s): 31.507964000000001
+Convergence flag: 0
+Residual: 0.0050084106751008689

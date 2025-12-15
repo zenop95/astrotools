@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O2 -g -DNDEBUG -shared -Wl,-soname,libgeco.so.0.1.0 -o libgeco.so.0.1.0 CMakeFiles/geco.dir/JsonParser.cpp.o CMakeFiles/geco.dir/MapEnum.cpp.o  /usr/local/lib/cspice.a /usr/lib/x86_64-linux-gnu/libjsoncpp.so 

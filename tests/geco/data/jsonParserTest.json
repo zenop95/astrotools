@@ -1,0 +1,17 @@
+{
+    "propagator" : {
+        "type" : "rungeKutta78",
+        "minStep"     : 1e-2,
+        "maxStep"     : 6e2,
+        "initialStep" : 30.0,
+        "tolerance"   : 1e-1
+    },
+    "boolean" : {
+        "A" : true,
+        "B" : false
+    },
+    "integer" : {
+        "A" : 42,
+        "B" : -37
+    }
+}

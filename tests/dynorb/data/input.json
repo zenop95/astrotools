@@ -1,0 +1,18 @@
+{
+    "dynamics": {
+        "type": "AIDA",
+        "gravityField": {
+            "model": "./data/egm2008",
+            "degree": 15
+        },
+        "thirdBody": 2,
+        "drag": {
+            "mode": 2,
+            "Bfactor": 0.0022
+        },
+        "srp": {
+            "mode": 3,
+            "SRPC": 0.00131
+        }
+    }
+}

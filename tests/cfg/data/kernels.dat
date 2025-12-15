@@ -1,0 +1,12 @@
+\begindata
+
+  PATH_SYMBOLS = ( 'GEN')
+  KERNELS_TO_LOAD = (
+                     '$GEN/naif0010.tls'
+                     '$GEN/de405.bsp'
+                     '$GEN/pck00010.tpc'
+                     '$GEN/gm_de431.tpc'
+                    )
+\begintext
+
+de-403-masses.tpc      Alternative kernel for masses

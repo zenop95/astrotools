@@ -1,0 +1,11 @@
+HOW TO USE DALS
+UPDATE FOLDER THROUGH GIT
+Folder examples -> go till the end. Open DALS JSON file
+Change date_est, no need to estimate Bfactor and SRPC
+OD: flag bfactor false (non ce l'ho). Lascia TRUE con 1e-5
+IntialEstimate contiene stato, cov, bfactor... se non ce l'ho skippo
+flag_adaptive TRUE se errore IOD alto.
+frame RSW ECI frame di inizializzazione DA (no diff)
+Observer: piu sensori possono osservare l'oggetto. Per me uno solo. Posso dare piu TDM.
+output: Cov, name, path 
+Measurements: fileTDM, 

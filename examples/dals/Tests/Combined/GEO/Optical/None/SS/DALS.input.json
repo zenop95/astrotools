@@ -1,0 +1,86 @@
+{
+   "DALS" : {
+      "date_est" : "06 APR 2020 03:47:21.519872 (UTC)",
+      "flag_Bfactor_est" : false,
+      "flag_SRPC_est" : false,
+      "fun_tol" : 1.0000000000000001e-05,
+      "grad_tol" : 1,
+      "map_tol" : 0.001,
+      "max_iter" : 10,
+      "order" : 2,
+      "output" : {
+         "flag_Cov" : true,
+         "flag_KeplPar" : true,
+         "name" : "TFRM.opm",
+         "obj_ID" : 41223,
+         "obj_name" : "unknown",
+         "path" : "./Tests/Combined/GEO/Optical/None/SS/Results/"
+      },
+      "step_tol" : 9.9999999999999995e-07,
+      "stop_crit" : "relative"
+   },
+   "Dynamics" : {
+      "SADAparam" : {
+         "flag_SRP" : 1,
+         "flag_SunMoon" : 2,
+         "flag_drag" : 1,
+         "flag_linear" : true,
+         "flag_shortPeriodics" : 2,
+         "flag_tesseral" : 1
+      },
+      "method" : "SADA",
+      "tolerance" : 9.9999999999999994e-12
+   },
+   "Earth" : {
+      "Earth_model" : "ITRF93",
+      "kernels" : {
+         "IAU_assoc" : "earth_assoc_IAU.tf",
+         "ITRF93" : "earth_000101_200629_200407.bpc",
+         "ITRF93_assoc" : "earth_assoc_itrf93.tf",
+         "path" : "./data/kernels/",
+         "pck" : "pck00010.tpc"
+      }
+   },
+   "OD" : {
+      "flag_Bfactor_av" : true,
+      "Covariance": {
+		"flag_Cov_av": true,
+		"sigma": 3
+	  },
+      "flag_SRPC_av" : true,
+      "name" : "TFRM.txt",
+      "path" : "./Tests/Combined/GEO/Optical/None/SS/OD/"
+   },
+   "Observer" : {
+      "n_sensors" : 1,
+      "sensor_1" : {
+		  "participant_1" : {
+			 "altitude" : 1.6220000000000001,
+			 "latitude" : 42.051600000000001,
+			 "longitude" : 0.72929999999999995,
+			 "name" : "TFRM",
+			 "path" : "./Tests/Combined/GEO/Optical/None/SS/Observatory/"
+		  },
+		  "sensor_setup" : {
+			 "declination" : {
+				"TDM_name" : "ANGLE_2",
+				"accuracy" : 0.3333333,
+				"availability" : true
+			 },
+			 "right_ascension" : {
+				"TDM_name" : "ANGLE_1",
+				"accuracy" : 0.33333333300000001,
+				"availability" : true
+			 }
+		  },
+		  "type" : "optical",
+		  "flag_LTS": true,
+		  "n_TDM": 1,
+		  "TDM":{
+			   "TDM_1": "TFRM.tdm",
+			   "path": "./Tests/Combined/GEO/Optical/None/SS/Measurements/"
+		  }	
+      }
+   }
+}
+

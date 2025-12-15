@@ -1,0 +1,19 @@
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/zeno/astrotools/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_17260/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_17260.dir/build.make CMakeFiles/cmTC_17260.dir/build
+gmake[1]: Entering directory '/home/zeno/astrotools/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_17260.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=sgemm_ -std=gnu++14 -o CMakeFiles/cmTC_17260.dir/CheckFunctionExists.cxx.o -c /home/zeno/astrotools/build/CMakeFiles/CheckFunctionExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_17260
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17260.dir/link.txt --verbose=1
+/usr/bin/c++  -DCHECK_FUNCTION_EXISTS=sgemm_ CMakeFiles/cmTC_17260.dir/CheckFunctionExists.cxx.o -o cmTC_17260 
+/usr/bin/ld: CMakeFiles/cmTC_17260.dir/CheckFunctionExists.cxx.o: in function `main':
+CheckFunctionExists.cxx:(.text+0x14): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_17260.dir/build.make:99: cmTC_17260] Error 1
+gmake[1]: Leaving directory '/home/zeno/astrotools/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_17260/fast] Error 2
+
+
+

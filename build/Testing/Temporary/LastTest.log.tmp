@@ -1,0 +1,44 @@
+Start testing: Feb 20 10:13 CET
+----------------------------------------------------------
+1/4 Testing: atmos
+1/4 Test: atmos
+Command: "/home/zeno/astrotools/build/tests/atmos/atmos_unit_tests"
+Directory: /home/zeno/astrotools/build/tests/atmos
+"atmos" start time: Feb 20 10:13 CET
+Output:
+----------------------------------------------------------
+.................
+
+
+OK (17 tests)
+
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"atmos" end time: Feb 20 10:13 CET
+"atmos" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: cfgTest
+2/4 Test: cfgTest
+Command: "/home/zeno/astrotools/build/tests/cfg/cfg_unit_tests"
+Directory: /home/zeno/astrotools/tests/cfg
+"cfgTest" start time: Feb 20 10:13 CET
+Output:
+----------------------------------------------------------
+...
+
+
+OK (3 tests)
+
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"cfgTest" end time: Feb 20 10:13 CET
+"cfgTest" time elapsed: 00:00:00
+----------------------------------------------------------
+

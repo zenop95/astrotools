@@ -1,0 +1,17 @@
+{
+    "exampleA" :
+    {
+        "type" : "derived A",
+        "value" : 42
+    },
+    "exampleB" :
+    {
+        "type" : "derived B",
+        "label" : "Other",
+        "someValue" : 51
+    },
+    "wrongExample":
+    {
+        "type" : "wrongType"
+    }
+}
